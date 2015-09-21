@@ -1,9 +1,4 @@
 <?php
-	
-	//loome Andmebaasi ühenduse
-	require_once("../config.php");
-	$database = "database";
-	$mysqli = new mysqli($servername, $username, $password, $database);
 
   // muuutujad errorite jaoks
 	$email_error = "";
